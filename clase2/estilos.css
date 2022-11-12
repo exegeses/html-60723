@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+body{
+    background-color: rgb(25, 37, 38);
+    color: blanchedalmond;
+    width: 680px;
+    margin: auto;/* centrar una caja (combinado con ancho) */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+h1{
+    font-weight: 300;
+}
+
+h2{
+    font-family: 'Arial Narrow', arial;
+    color: rgb(255, 200, 128);
+    font-weight: 400;
+}
+p{
+    background-color:rgb(20, 26, 26);
+}
+
+#destacado{
+    background-color: blanchedalmond;
+    color: rgb(25, 37, 38);
+}
