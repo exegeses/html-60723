@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #555;
+}
+
+#contenedor1{
+    width: 800px;
+    height: 450px;    
+    background-color: #ccc;
+    /* FLEX */
+    display: flex;
+
+    /* alineación o distribución en eje x */
+    /* justify-content: start; /* predeterminado - izquierda */
+    /* justify-content: center; /* centrado */
+    /* justify-content: end; /* derecho */
+    justify-content: space-between; /* distribuye el espacio sobrante */
+}
+#contenedor2{
+    width: 800px;
+    height: 450px;    
+    background-color: #ccc;
+    /* FLEX */
+    display: flex; 
+    
+    /* alineación o distribución en eje y */
+    /* align-items: start; /* predeterminado - arriba */
+    align-items: center; /* centrado */
+    /* align-items: end; /* debajo */
+}
+
+#contenedor3{
+    width: 800px;
+    height: 450px;    
+    background-color: #ccc;
+    /* FLEX */
+    display: flex;
+
+    justify-content: space-evenly; /* eje x */
+    align-items: center;
+}
+
+    article{
+        width: 200px;
+        height: 120px;
+        background-color: rgb(225, 255, 195);
+        text-align: center;
+    }
