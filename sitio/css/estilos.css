@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*#### globales ####*/
+body{
+    color: #3c3c3c;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+    a{
+        text-decoration: none;
+    }
+
+
+/*### header ###*/
+header{
+    width: 1100px;
+    height: 100px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    header a{
+        color: #3c3c3c;
+    }
+    header a img{
+        margin-right: 16px;
+        vertical-align: middle;
+    }
+    header nav a{
+        padding: 8px;
+    }
+
+/*### main ###*/
+
+
+/*### hero-banner ###*/
+#hero-banner{
+    width: 1100px;
+    margin: auto;
+    height: 500px;
+
+    background-image: url(../imgs/hero-banner-2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+}
+    h1{
+        color: #fff;
+        margin-left: 100px;
+    }
+
+/*### promos ###*/
+#promos{
+    width: 1100px;
+    height: 450px;
+    margin: 56px auto 0px auto;
+    background-color: #FAF0E9;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+    #promos article{
+        width: 290px;
+    }
+    #promos article h2{
+        font-size: 16px;
+        margin: 24px 0px 16px 0px;
+    }
