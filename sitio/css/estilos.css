@@ -147,3 +147,14 @@ header{
         font-size: 56px;
         display: block;
     }
+
+/*### mapa ###*/
+#mapa{
+    width: 1100px;
+    margin: 32px auto 0px auto;
+}
+    #mapa iframe{
+        width: 1100px;
+        height: 450px;
+        border: none;
+    }
