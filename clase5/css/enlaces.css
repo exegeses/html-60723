@@ -1,0 +1,10 @@
+body{
+    font-family: helvetica, sans-serif;
+}
+main{
+    width: 600px;
+    margin: auto;
+}
+    main img{
+        width: 64px;
+    }
