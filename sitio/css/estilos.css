@@ -80,3 +80,37 @@ header{
         font-size: 16px;
         margin: 24px 0px 16px 0px;
     }
+
+/*#### destinos ####*/
+
+#destinos{
+    width: 1100px;
+    margin: 56px auto 0px auto;
+}
+    #destinos article{
+        display: flex;
+        margin-top: 32px;
+    }
+    #destinos article div h2{
+        margin: 96px 0px 0px 102px;
+        font-size: 16px;
+    }
+    #destinos article div p{
+        margin: 16px 0px 0px 102px;
+        width: 340px;
+    }
+    #destinos article div a{
+        display: block;
+        width: 140px;
+        margin: 24px auto;
+        padding: 8px 36px;
+        border: #3c3c3c 1px solid;
+        border-radius: 12px;
+        text-align: center;
+        color: #3c3c3c;
+        transition: 500ms;
+    }
+    #destinos article div a:hover{
+        color: #fff;
+        background-color: #3c3c3c;
+    }
